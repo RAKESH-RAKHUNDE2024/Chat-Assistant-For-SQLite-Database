@@ -15,7 +15,7 @@ The Assistant Is Designed To:-
 2. Convert Those Inputs Into SQL Commands.
 3. Retrieve And Present The Relevant Data From An SQLite Database With Clear, Accurate, And Formatted Responses.
 4. Handle Potential Errors Such As Invalid Queries Or No Results Found, Ensuring The Assistant Can Gracefully Manage Edge Cases.
-5. Provide A Seamless, User-friendly Experience While Offering Clear And Precise Answers To Supported Queries, Such As:
+5. Provide A Seamless, User-Friendly Experience While Offering Clear And Precise Answers To Supported Queries, Such As:
    - Listing Employees In A Specific Department.
    - Identifying The Manager Of A Department.
    - Calculating Total Salary Expenses For A Department.
