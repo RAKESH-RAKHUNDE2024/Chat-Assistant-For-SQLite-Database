@@ -22,6 +22,24 @@ The Assistant Is Designed To:-
 
 ---
 
+## Overview Of The Workflow:-
+
+1) User Input (Natural Language Query):-  Users Interact With The Assistant By Typing In Plain Language Queries Like "Show Me All Employees In The Sales Department" Or "Who Is The Manager Of The Marketing Department?"
+
+2) Natural Language Processing (NLP):-  The Assistant Uses Basic Nlp Techniques To Analyze And Understand The User’s Input. It Identifies Key Components, Such As The Department Name, Date, Or Specific Query Action (E.g., Fetching Employees, Calculating Salary Expenses).
+
+3) SQL Query Mapping:-  The Assistant Translates The Natural Language Query Into An Appropriate SQL Query That Interacts With The SQLite Database. For Example, A Query About Employees In A Department Is Mapped To A Select Name From Employees Where Department = ? Query.
+
+4) Database Interaction:-  The Assistant Then Executes The Generated SQL Query On The SQLite Database, Retrieving Relevant Data From The Employees And Departments Tables. The Database Contains Employee Details (E.g., Name, Department, Salary, Hire Date) And Department Details (E.g., Name, Manager).
+
+5) Error Handling:-  In Case Of Unrecognized Queries, Invalid Department Names, Or Incorrect Date Formats, The Assistant Returns Helpful Error Messages To Guide The User, Ensuring Smooth Interaction.
+
+6) Response Generation:-  After Executing The SQL Query, The Assistant Formats The Data Into Human-readable Responses, Such As "Alice Is Working In The Sales Department" Or "The Total Salary Expense For The Marketing Department Is 60,000."
+
+7) Deployment:-  The Assistant Is Deployed As A Web Application Using Flask, Allowing Users To Interact With It Online Via A Public Url. The App Is Hosted On Platforms Like Heroku Or Pythonanywhere.
+
+
+
 ## Conclusion:-
 
 This Project Successfully Implements A Python-based Chat Assistant That Can Interact With An SQLite Database To Answer Various Organizational Queries. The Use Of The **flask** Framework Allows The Application To Be Deployed As An Api, Enabling Easy Interaction With The Assistant. The Solution Effectively Handles Multiple Query Types, Such As Listing Employees, Calculating Salary Expenses, And Identifying Department Managers.
