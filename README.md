@@ -1,6 +1,6 @@
 ## Project Summary:-
 
-This Project Is A Python-Based Chat Assistant That Interacts With An SQLite Database To Respond To Natural Language Queries. The Assistant Is Capable Of Processing User Queries Related To Employees And Departments Within An Organization, Converting These Queries Into SQL Commands, Retrieving The Relevant Data, And Returning Clear And Formatted Responses. The Project Leverages The Flask Web Framework For Building The Api And SQLite For Data Storage. 
+This Project Is A Python-Based Chat Assistant That Interacts With An SQLite Database To Respond To Natural Language Queries. The Assistant Is Capable Of Processing User Queries Related To Employees And Departments Within An Organization, Converting These Queries Into SQL Commands, Retrieving The Relevant Data, And Returning Clear And Formatted Responses. The Project Leverages The Flask Web Framework For Building The API And SQLite For Data Storage. 
 
 The Assistant Supports A Variety Of Queries, Including Retrieving Employee Information, Identifying Department Managers, Listing Employees Based On Hire Date, And Calculating Salary Expenses For Departments. Additionally, The Solution Incorporates Error Handling Mechanisms To Manage Invalid Queries, Missing Data, And Incorrect Formats, Providing A Seamless User Experience.
 
@@ -42,7 +42,7 @@ The Assistant Is Designed To:-
 
 ## Conclusion:-
 
-This Project Successfully Implements A Python-based Chat Assistant That Can Interact With An SQLite Database To Answer Various Organizational Queries. The Use Of The **flask** Framework Allows The Application To Be Deployed As An Api, Enabling Easy Interaction With The Assistant. The Solution Effectively Handles Multiple Query Types, Such As Listing Employees, Calculating Salary Expenses, And Identifying Department Managers.
+This Project Successfully Implements A Python-based Chat Assistant That Can Interact With An SQLite Database To Answer Various Organizational Queries. The Use Of The **flask** Framework Allows The Application To Be Deployed As An API, Enabling Easy Interaction With The Assistant. The Solution Effectively Handles Multiple Query Types, Such As Listing Employees, Calculating Salary Expenses, And Identifying Department Managers.
 
 Through This Project, A Practical Understanding Of Integrating Natural Language Processing With SQL Queries And Database Interaction Has Been Demonstrated. The Error Handling Ensures That The Assistant Can Gracefully Manage Incorrect Or Incomplete Inputs, Providing Helpful Responses To The User. The System Is Designed To Be Extensible, Allowing For Additional Query Types And Enhancements In The Future.
 
